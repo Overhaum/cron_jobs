@@ -2,8 +2,8 @@ const fs = require('fs');
 const redis = require('redis');
 const dayjs = require('dayjs');
 
-const dbKey = 'my-app-log-info';
-const logFilePath = 'C:/Users/user/Desktop/university/DevOps/cron_jobs/log_file.log';
+const dbKey = '9222955718b5ae47ad8dc5a4d41c9d7b963237a6bf2beeab276764b9c45b3e62';
+const logFilePath = 'C:\Users\Overhaum\Documents\GitHub\cron_jobs/log_file.log';
 
 const formatDate = (date) => dayjs(date).format('DD-MM-YYYY HH:mm:ss');
 
